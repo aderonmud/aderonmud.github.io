@@ -1,0 +1,72 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Builder Stuff</title>
+</head>
+
+<body>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="8" width="98%">
+    <tr>
+      <td align="right" valign="top" width="20%">&nbsp;</td>
+      <td width="15"></td>
+      <td valign="bottom" width="80%"><font size="5" color="#0000FF">Builder
+        Stuff&nbsp;&nbsp;</font>
+        <p><font size="1">(it ain't pretty, but I'm a coder on the last day of a
+        3-day weekend...)</font></p>
+      </td>
+    </tr>
+    <tr>
+    <td align="left" valign="top" bgcolor="#000000"> 
+      &nbsp;
+    </tr>
+    <tr>
+      <td valign="top" width="20%"><font size="3"><br>
+        </font><font color="#FFFFFF" size="4" face="Comic Sans MS"><a href="index.htm" target="_parent"><font color="#0000FF">Home</font></a></font>
+      <p><font color="#0000FF" size="4" face="Comic Sans MS"><a href="cities.htm" target="_parent">Cities</a></font> 
+      </p>
+      <p align="left"><font color="#0000FF" size="4" face="Comic Sans MS"><a href="history.htm" target="_parent">History</a></font></p>
+      <p align="left"><font color="#0000FF" size="4" face="Comic Sans MS"><a href="worlds.htm" target="_parent">World</a></font></p>
+      <p align="left"><font color="#0000FF" size="4" face="Comic Sans MS"><a href="features.htm">Features</a></font></p>
+      <p align="left"><font color="#0000FF" size="4" face="Comic Sans MS"><a href="reviews.htm" target="_top">Reviews</a></font></p>
+      <p align="left"><font color="#0000FF" size="4" face="Comic Sans MS"><a href="telnet://aderonmud.genesismuds.com 3200" target="_parent">Connect 
+        Now</a></font></p>
+      <p align="left"><font color="#0000FF" size="4" face="Comic Sans MS"><a href="contact.htm" target="_parent">Misc</a></font></p>
+        <p><font size="3"><br>
+        </font></td>
+      <td width="15"></td>
+      <td valign="top" width="80%"><font size="3"><br>
+        </font><font size="4">Here is a really great site with all kinds of
+        training and examples on scripting the rooms, mobs, objects, and
+        triggers.</font>
+        <p><a href="http://www.builderacademy.net/Oasis_DG_pages/index.html">http://www.builderacademy.net/Oasis_DG_pages/index.html</a></p>
+        <hr>
+        <p><font size="4">Since we don't like <font color="#FF0000">crash loops</font>,
+        read this before you do any triggers:</font></p>
+        <p>(shamelessly stolen from the above site, because you really need to
+        read it!)</p>
+        <p><font color="#0000FF" size="3">It is important to first try out the trigger via the attach command before attaching it via the script editor. If you've made a mistake, causing the mud to crash (we've seen it happen), the script will reattach when the mud comes back up, causing another crash, ad infinitum. This will not happen if you 'attach' it.</font></p>
+        <p>attach              Attach has the following syntax:<br>
+                        attach { wtr | mtr | otr } &lt;trigger vnum> { obj/mob name | obj/mob/room vnum } [ pos ]<br>
+                        attach { room | mob | obj } &lt;trigger vnum> { obj/mob name | obj/mob/room vnum } [ pos ]<br>
+                        Examples:<br>
+                        attach mob 1299 templar 1 --> attach trigger 1299 to 'templar' in position 1<br>
+                        attach wtr 1299 1204 --> attach script 1299 to the immortal board room.<br>
+        <br>
+                        NOTE: attach only works on this instance of a mob/object/room, and the<br>
+                        script will not be saved- use the script editor<br>
+                        within oedit/redit or medit to do that.</td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>
